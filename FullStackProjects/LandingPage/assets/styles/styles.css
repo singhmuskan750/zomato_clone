@@ -4,6 +4,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+*:focus{
+    outline: none;
+}
  a {
      color: unset;
  }
@@ -43,4 +46,64 @@ nav .nav-item.app {
 nav .nav-item {
     font-weight: 300;
     font-size: 1.1rem;
+}
+
+header div.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    margin: 0px auto;
+}
+
+header img.logo {
+    width: 300px;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 400;
+}
+/* header content  */
+
+header div.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+}
+header div.search-box div.select i{
+    margin: 10px;
+}
+header div.search-box div.select i {
+    color: #f57082;
+}
+header div.search-box div.input i {
+    color: #828282b7;
+}
+
+header div.search-box div.seperator {
+    height: 50%;
+    background-color: #8282829b;
+    width: 2px;
+}
+
+header div.search-box div.input {
+    flex-grow: 70;
+}
+header div.search-box div.input input {
+    width: 100%;
+    font-size: 1rem;
+}
+
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 50px;
 }
