@@ -7,3 +7,40 @@
  a {
      color: unset;
  }
+
+ header {
+     background-image: url('../images/hero.png');
+     background-position: center;
+     background-size: cover;
+     height: 60vh;
+ }
+ /* header styles */
+
+ /* navbar styles */
+ nav {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 25px 0px;
+     justify-content: space-between;
+     width: 90%;
+     margin: 0px auto;
+ }
+  
+nav .nav-item {
+    color: white;
+    margin: 0px 10px;
+}
+
+nav div.container {
+    display: flex;
+}
+
+nav .nav-item.app {
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+nav .nav-item {
+    font-weight: 300;
+    font-size: 1.1rem;
+}
