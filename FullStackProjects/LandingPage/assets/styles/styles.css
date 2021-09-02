@@ -3,9 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
 }
 *:focus{
     outline: none;
+    border: none;
 }
  a {
      color: unset;
@@ -94,11 +96,12 @@ header div.search-box div.seperator {
 }
 
 header div.search-box div.input {
-    flex-grow: 70;
+    flex-grow: 80;
 }
 header div.search-box div.input input {
     width: 100%;
     font-size: 1rem;
+    align-items: center;
 }
 
 div.search-box div{
@@ -106,4 +109,10 @@ div.search-box div{
     align-items: center;
     height: 50px;
     margin: 0px 50px;
+}
+
+header div.search-box div.select select {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #757575;
 }
