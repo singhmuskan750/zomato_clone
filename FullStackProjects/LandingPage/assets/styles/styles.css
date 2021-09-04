@@ -268,3 +268,99 @@ section.options div.container div ul li {
     font-size: 1.1rem;
     font-weight: 100;
 }
+
+/* footer section  */
+
+footer {
+    background-color: #F8F8F8;
+    height: 74vh;
+
+}
+footer div.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+footer div.footer-area {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer div.container div.links ul li {
+    list-style: none;
+    padding: 4px 0;
+    font-size: 1.2rem;
+    color: #696969;
+}
+
+footer div.container img {
+    width: 100%;
+    height: 30px;
+}
+footer div.container div.button {
+    display: flex;
+    text-align: center;
+    width: 220px;
+    justify-content: space-between;
+}
+footer div.container div.button .btn-country,
+footer div.container div.button .btn-language {
+    width: 100px;
+    border: 1px solid #363636;
+    border-radius: 6px;
+    padding: 10px;
+}
+footer div.container .links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+footer div.container .links h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 0.08rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+footer div.container .links .social-links {
+    display: flex;
+    flex-direction: column;
+}
+footer div.container .links .social-links img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 3rem;
+    color: #828282;
+
+}
+footer div.container .links .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 8px 0 18px 0;
+} 
+footer div.container .links .social-icons a img{
+    height: 1.8rem;
+    width: 1.8rem;
+}
+footer div.container hr.footer-hr {
+    margin-top: 20px;
+    color: #a39595;
+    border-width: 5px 0 0;
+}
+footer .container p.footer-info{
+    font-size: 1.1rem;
+    color: #4f4f4f;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    margin-top: 15px;
+}
